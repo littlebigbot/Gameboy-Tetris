@@ -1,0 +1,365 @@
+* {
+margin:0;
+padding:0;
+}
+body,html {
+	height:100%;
+}
+body {
+	background:#a62564;	
+}
+#gameboy {
+	width:366px;
+	height:600px;
+	background:url(gameboy.png) top left no-repeat;
+	position:absolute;
+	z-index:3;
+	top:0;
+	left:0;
+}
+#screen {
+	width: 192px;
+	height: 175px;
+	position: absolute;
+	top: 80px;
+	left: 87px;
+	/*background:url(screen.png) top left repeat-x;*/
+	background:#546717;
+	z-index:1;
+	text-align:center;
+}
+#wrapper {
+	width: 366px;
+	height:600px;
+	position:absolute;
+	font-family: 'Press Start 2P';
+	top:50%;
+	left:50%;
+	margin-top:-300px;
+	margin-left:-183px;
+	z-index:2;
+	color:#081506;
+}
+#pause {
+width:90px;
+height:132px;
+padding-top:75px;
+position:absolute;
+top:-35px;
+left:16px;
+	background:#546717;
+	text-align:center;
+	font-size:8px;
+	color:#081506;
+}
+#pause span {
+	display:inline-block;
+line-height:10px;
+padding-top:3px;
+border-bottom:dotted 1px #081506;
+}
+#shadow {
+	width:353px;
+	height:586px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-293px;
+	margin-left:-177px;
+	z-index:1;
+	background:#7e0a47;
+	-moz-box-shadow:    -6px 6px 21px 1px #7e0a47;
+	-webkit-box-shadow: -6px 6px 21px 1px #7e0a47;
+	box-shadow:         -6px 6px 21px 1px #7e0a47;
+	border-radius: 10px 10px 80px 10px;
+}
+#b_button {
+	position:absolute;
+	top: 390px;
+	left: 231px;
+	background:url(b_button.png) top left no-repeat;
+	width:45px;
+	height:47px;
+	cursor:pointer;
+}
+#b_button:active {
+	background-position: -45px 0;
+}
+#a_button {
+	position:absolute;
+	top: 362px;
+	left: 291px;
+	background:url(a_button.png) top left no-repeat;
+	width:45px;
+	height:47px;
+	cursor:pointer;
+}
+#a_button:active {
+	background-position: -45px 0;
+}
+#start {
+	position:absolute;
+	top: 478px;
+	left: 172px;
+	background:url(start_button.png) top left no-repeat;
+	width:42px;
+	height:28px;
+	cursor:pointer;
+}
+#start:active {
+	background-position: -42px 0;
+}
+#select {
+	position:absolute;
+	top: 476px;
+	left: 111px;
+	background:url(select_button.png) top left no-repeat;
+	width:43px;
+	height:28px;
+	cursor:pointer;
+}
+#select:active {
+	background-position: -43px 0;
+}
+#d_pad {
+	position:absolute;
+	top: 359px;
+	left: 33px;
+	background:url(d_pad.png) top left no-repeat;
+	width:90px;
+	height:91px;
+}
+#top {
+	position:absolute;
+	top:0px;
+	left: 27px;
+	width: 35px;
+	height: 28px;
+	cursor:pointer;
+}
+#right {
+	position:absolute;
+	top: 28px;
+	right: 0px;
+	width: 32px;
+	height: 35px;
+	cursor:pointer;
+}
+#bottom {
+	position:absolute;
+	bottom:0px;
+	left: 28px;
+	width: 33px;
+	height: 28px;
+	cursor:pointer;
+}
+#left {
+	position:absolute;
+	top: 28px;
+	left: 0px;
+	width: 28px;
+	height: 35px;
+	cursor:pointer;
+}
+
+#onLight {
+	position:absolute;
+	top: 125px;
+	left: 39px;
+	opacity:0;
+}
+#intro {
+	position:absolute;
+	width:192px;
+	text-align:center;
+	top:-20px;
+}
+
+#config {
+	position:fixed;
+	z-index:3;
+	bottom:-110px;
+	right:-360px;
+	width:400px;
+	height:150px;
+		font-family: 'Press Start 2P';	
+}
+
+#gear {
+	position:absolute;
+	top:4px;
+	left:4px;
+background:  url(config.png) top left no-repeat;	
+width:32px;
+height:32px;
+
+}
+.rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+ 
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+ 
+    overflow:hidden;
+ cursor:pointer;
+    }   
+ 
+.rotate:hover
+{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+#config .reset {
+	float:right;
+	font-size:10px;
+	line-height:40px;
+	margin-right:20px;
+	color:#03117c;
+	text-decoration:none;
+}
+#config .reset:hover {
+	color:#fff;
+}
+#config h1 {
+
+		margin-left:45px;
+		line-height:40px;
+		font-size:16px;
+		width:260px;
+}
+#config .right {
+	width:200px;
+	float:left;
+}
+#config .left {
+	width:190px;
+	float:left;
+	margin-left:10px;
+}
+#config label {
+	display:block;
+	float:left;
+	width:50px;
+	font-size:8px;
+	line-height:20px;
+	margin:2px 0;
+}
+#config input[type="text"] {
+	width:125px;
+	height:18px;
+	border:0;
+		margin:2px 0;
+		font-family: 'Press Start 2P';	
+		outline:none;
+		border: 1px solid #fff;
+	font-size:12px;
+}
+
+#config input[type="text"]:focus {
+border:1px solid #000;	
+}
+
+#grid {
+width:90px;
+height:207px;
+position:absolute;
+top:-35px;
+left:16px;
+}
+
+.cell {
+width:9px;
+height:9px;
+float:left;
+background:url(tetris_blocks.png) 0 -9px no-repeat;
+}
+
+#nextPiece {
+width:36px;
+height:36px;
+position:absolute;
+z-index:2;
+top: 127px;
+left: 137px
+}
+.shape1 {
+	background-position:-36px 0px;
+}
+.shape1a {
+	background-position:-45px 0px;
+}
+.shape1b {
+	background-position:-54px 0px;
+}
+.shape1r {
+	background-position:-90px 0px;
+}
+.shape1ra {
+	background-position:-108px 0px;
+}
+.shape1rb {
+	background-position:-99px 0px;
+}
+.shape2 {
+	background-position:-27px 0px;
+}
+.shape3 {
+	background-position:-9px 0px;
+}
+.shape4 {
+	background-position:0px 0px;
+}
+.shape5 {
+	background-position:-18px 0px;
+}
+
+.shape6 {
+	background-position:-63px 0px;
+}
+.shape7 {
+	background-position:-72px 0px;
+}
+.blink {
+	background-position:-81px 0px;
+}
+
+#scoreTitle {
+font-size: 7px;
+position: absolute;
+top: 19px;
+left: 137px;	
+}
+
+#score {
+position:absolute;
+top:35px;
+right:17px;
+font-size:7px;
+}
+
+#level, #lines {
+	position:absolute;
+	top:60px;
+	right:21px;
+	font-size:6px;
+}
+
+#lines {
+top:84px;	
+}
+
+.number{
+display: block;
+text-align: right;
+line-height:10px;
+}
+
+.info {
+display:none;	
+}

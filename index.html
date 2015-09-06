@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+<link href='main.css' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0" />
+<script language="javascript" type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="gameboy.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="screen">
+			<div id="intro">Briggs</div>
+			<div id="grid">
+				<div class="col0 row0 cell blank"></div>
+				<div class="col1 row0 cell blank"></div>
+				<div class="col2 row0 cell blank"></div>
+				<div class="col3 row0 cell blank"></div>
+				<div class="col4 row0 cell blank"></div>
+				<div class="col5 row0 cell blank"></div>
+				<div class="col6 row0 cell blank"></div>
+				<div class="col7 row0 cell blank"></div>
+				<div class="col8 row0 cell blank"></div>
+				<div class="col9 row0 cell blank"></div>
+				
+				<div class="col0 row1 cell blank"></div>
+				<div class="col1 row1 cell blank"></div>
+				<div class="col2 row1 cell blank"></div>
+				<div class="col3 row1 cell blank"></div>
+				<div class="col4 row1 cell blank"></div>
+				<div class="col5 row1 cell blank"></div>
+				<div class="col6 row1 cell blank"></div>
+				<div class="col7 row1 cell blank"></div>
+				<div class="col8 row1 cell blank"></div>
+				<div class="col9 row1 cell blank"></div>
+				
+				<div class="col0 row2 cell blank"></div>
+				<div class="col1 row2 cell blank"></div>
+				<div class="col2 row2 cell blank"></div>
+				<div class="col3 row2 cell blank"></div>
+				<div class="col4 row2 cell blank"></div>
+				<div class="col5 row2 cell blank"></div>
+				<div class="col6 row2 cell blank"></div>
+				<div class="col7 row2 cell blank"></div>
+				<div class="col8 row2 cell blank"></div>
+				<div class="col9 row2 cell blank"></div>
+				
+				<div class="col0 row3 cell blank"></div>
+				<div class="col1 row3 cell blank"></div>
+				<div class="col2 row3 cell blank"></div>
+				<div class="col3 row3 cell blank"></div>
+				<div class="col4 row3 cell blank"></div>
+				<div class="col5 row3 cell blank"></div>
+				<div class="col6 row3 cell blank"></div>
+				<div class="col7 row3 cell blank"></div>
+				<div class="col8 row3 cell blank"></div>
+				<div class="col9 row3 cell blank"></div>
+				
+				<div class="col0 row4 cell blank"></div>
+				<div class="col1 row4 cell blank"></div>
+				<div class="col2 row4 cell blank"></div>
+				<div class="col3 row4 cell blank"></div>
+				<div class="col4 row4 cell blank"></div>
+				<div class="col5 row4 cell blank"></div>
+				<div class="col6 row4 cell blank"></div>
+				<div class="col7 row4 cell blank"></div>
+				<div class="col8 row4 cell blank"></div>
+				<div class="col9 row4 cell blank"></div>
+				
+				<div class="col0 row5 cell blank"></div>
+				<div class="col1 row5 cell blank"></div>
+				<div class="col2 row5 cell blank"></div>
+				<div class="col3 row5 cell blank"></div>
+				<div class="col4 row5 cell blank"></div>
+				<div class="col5 row5 cell blank"></div>
+				<div class="col6 row5 cell blank"></div>
+				<div class="col7 row5 cell blank"></div>
+				<div class="col8 row5 cell blank"></div>
+				<div class="col9 row5 cell blank"></div>
+				
+				<div class="col0 row6 cell blank"></div>
+				<div class="col1 row6 cell blank"></div>
+				<div class="col2 row6 cell blank"></div>
+				<div class="col3 row6 cell blank"></div>
+				<div class="col4 row6 cell blank"></div>
+				<div class="col5 row6 cell blank"></div>
+				<div class="col6 row6 cell blank"></div>
+				<div class="col7 row6 cell blank"></div>
+				<div class="col8 row6 cell blank"></div>
+				<div class="col9 row6 cell blank"></div>
+				
+				<div class="col0 row7 cell blank"></div>
+				<div class="col1 row7 cell blank"></div>
+				<div class="col2 row7 cell blank"></div>
+				<div class="col3 row7 cell blank"></div>
+				<div class="col4 row7 cell blank"></div>
+				<div class="col5 row7 cell blank"></div>
+				<div class="col6 row7 cell blank"></div>
+				<div class="col7 row7 cell blank"></div>
+				<div class="col8 row7 cell blank"></div>
+				<div class="col9 row7 cell blank"></div>
+				
+				<div class="col0 row8 cell blank"></div>
+				<div class="col1 row8 cell blank"></div>
+				<div class="col2 row8 cell blank"></div>
+				<div class="col3 row8 cell blank"></div>
+				<div class="col4 row8 cell blank"></div>
+				<div class="col5 row8 cell blank"></div>
+				<div class="col6 row8 cell blank"></div>
+				<div class="col7 row8 cell blank"></div>
+				<div class="col8 row8 cell blank"></div>
+				<div class="col9 row8 cell blank"></div>
+				
+				<div class="col0 row9 cell blank"></div>
+				<div class="col1 row9 cell blank"></div>
+				<div class="col2 row9 cell blank"></div>
+				<div class="col3 row9 cell blank"></div>
+				<div class="col4 row9 cell blank"></div>
+				<div class="col5 row9 cell blank"></div>
+				<div class="col6 row9 cell blank"></div>
+				<div class="col7 row9 cell blank"></div>
+				<div class="col8 row9 cell blank"></div>
+				<div class="col9 row9 cell blank"></div>
+				
+				<div class="col0 row10 cell blank"></div>
+				<div class="col1 row10 cell blank"></div>
+				<div class="col2 row10 cell blank"></div>
+				<div class="col3 row10 cell blank"></div>
+				<div class="col4 row10 cell blank"></div>
+				<div class="col5 row10 cell blank"></div>
+				<div class="col6 row10 cell blank"></div>
+				<div class="col7 row10 cell blank"></div>
+				<div class="col8 row10 cell blank"></div>
+				<div class="col9 row10 cell blank"></div>
+				
+				<div class="col0 row11 cell blank"></div>
+				<div class="col1 row11 cell blank"></div>
+				<div class="col2 row11 cell blank"></div>
+				<div class="col3 row11 cell blank"></div>
+				<div class="col4 row11 cell blank"></div>
+				<div class="col5 row11 cell blank"></div>
+				<div class="col6 row11 cell blank"></div>
+				<div class="col7 row11 cell blank"></div>
+				<div class="col8 row11 cell blank"></div>
+				<div class="col9 row11 cell blank"></div>
+				
+				<div class="col0 row12 cell blank"></div>
+				<div class="col1 row12 cell blank"></div>
+				<div class="col2 row12 cell blank"></div>
+				<div class="col3 row12 cell blank"></div>
+				<div class="col4 row12 cell blank"></div>
+				<div class="col5 row12 cell blank"></div>
+				<div class="col6 row12 cell blank"></div>
+				<div class="col7 row12 cell blank"></div>
+				<div class="col8 row12 cell blank"></div>
+				<div class="col9 row12 cell blank"></div>
+				
+				<div class="col0 row13 cell blank"></div>
+				<div class="col1 row13 cell blank"></div>
+				<div class="col2 row13 cell blank"></div>
+				<div class="col3 row13 cell blank"></div>
+				<div class="col4 row13 cell blank"></div>
+				<div class="col5 row13 cell blank"></div>
+				<div class="col6 row13 cell blank"></div>
+				<div class="col7 row13 cell blank"></div>
+				<div class="col8 row13 cell blank"></div>
+				<div class="col9 row13 cell blank"></div>
+				
+				<div class="col0 row14 cell blank"></div>
+				<div class="col1 row14 cell blank"></div>
+				<div class="col2 row14 cell blank"></div>
+				<div class="col3 row14 cell blank"></div>
+				<div class="col4 row14 cell blank"></div>
+				<div class="col5 row14 cell blank"></div>
+				<div class="col6 row14 cell blank"></div>
+				<div class="col7 row14 cell blank"></div>
+				<div class="col8 row14 cell blank"></div>
+				<div class="col9 row14 cell blank"></div>
+				
+				<div class="col0 row15 cell blank"></div>
+				<div class="col1 row15 cell blank"></div>
+				<div class="col2 row15 cell blank"></div>
+				<div class="col3 row15 cell blank"></div>
+				<div class="col4 row15 cell blank"></div>
+				<div class="col5 row15 cell blank"></div>
+				<div class="col6 row15 cell blank"></div>
+				<div class="col7 row15 cell blank"></div>
+				<div class="col8 row15 cell blank"></div>
+				<div class="col9 row15 cell blank"></div>
+				
+				<div class="col0 row16 cell blank"></div>
+				<div class="col1 row16 cell blank"></div>
+				<div class="col2 row16 cell blank"></div>
+				<div class="col3 row16 cell blank"></div>
+				<div class="col4 row16 cell blank"></div>
+				<div class="col5 row16 cell blank"></div>
+				<div class="col6 row16 cell blank"></div>
+				<div class="col7 row16 cell blank"></div>
+				<div class="col8 row16 cell blank"></div>
+				<div class="col9 row16 cell blank"></div>
+				
+				<div class="col0 row17 cell blank"></div>
+				<div class="col1 row17 cell blank"></div>
+				<div class="col2 row17 cell blank"></div>
+				<div class="col3 row17 cell blank"></div>
+				<div class="col4 row17 cell blank"></div>
+				<div class="col5 row17 cell blank"></div>
+				<div class="col6 row17 cell blank"></div>
+				<div class="col7 row17 cell blank"></div>
+				<div class="col8 row17 cell blank"></div>
+				<div class="col9 row17 cell blank"></div>
+				
+				<div class="col0 row18 cell blank"></div>
+				<div class="col1 row18 cell blank"></div>
+				<div class="col2 row18 cell blank"></div>
+				<div class="col3 row18 cell blank"></div>
+				<div class="col4 row18 cell blank"></div>
+				<div class="col5 row18 cell blank"></div>
+				<div class="col6 row18 cell blank"></div>
+				<div class="col7 row18 cell blank"></div>
+				<div class="col8 row18 cell blank"></div>
+				<div class="col9 row18 cell blank"></div>
+				
+				<div class="col0 row19 cell blank"></div>
+				<div class="col1 row19 cell blank"></div>
+				<div class="col2 row19 cell blank"></div>
+				<div class="col3 row19 cell blank"></div>
+				<div class="col4 row19 cell blank"></div>
+				<div class="col5 row19 cell blank"></div>
+				<div class="col6 row19 cell blank"></div>
+				<div class="col7 row19 cell blank"></div>
+				<div class="col8 row19 cell blank"></div>
+				<div class="col9 row19 cell blank"></div>
+				
+				<div class="col0 row20 cell blank"></div>
+				<div class="col1 row20 cell blank"></div>
+				<div class="col2 row20 cell blank"></div>
+				<div class="col3 row20 cell blank"></div>
+				<div class="col4 row20 cell blank"></div>
+				<div class="col5 row20 cell blank"></div>
+				<div class="col6 row20 cell blank"></div>
+				<div class="col7 row20 cell blank"></div>
+				<div class="col8 row20 cell blank"></div>
+				<div class="col9 row20 cell blank"></div>
+				
+				<div class="col0 row21 cell blank"></div>
+				<div class="col1 row21 cell blank"></div>
+				<div class="col2 row21 cell blank"></div>
+				<div class="col3 row21 cell blank"></div>
+				<div class="col4 row21 cell blank"></div>
+				<div class="col5 row21 cell blank"></div>
+				<div class="col6 row21 cell blank"></div>
+				<div class="col7 row21 cell blank"></div>
+				<div class="col8 row21 cell blank"></div>
+				<div class="col9 row21 cell blank"></div>
+				
+				<div class="col0 row22 cell blank"></div>
+				<div class="col1 row22 cell blank"></div>
+				<div class="col2 row22 cell blank"></div>
+				<div class="col3 row22 cell blank"></div>
+				<div class="col4 row22 cell blank"></div>
+				<div class="col5 row22 cell blank"></div>
+				<div class="col6 row22 cell blank"></div>
+				<div class="col7 row22 cell blank"></div>
+				<div class="col8 row22 cell blank"></div>
+				<div class="col9 row22 cell blank"></div>
+			</div>
+			<div id="scoreTitle" class="info">SCORE</div>
+			<div id="score" class="info">0</div>
+			<div id="level" class="info">LEVEL<span class="number">0</span></div>
+			<div id="lines"  class="info">LINES<span class="number">0</span></div>
+			<div id="nextPiece">
+				<div class="col0 row0 cell blank"></div>
+				<div class="col1 row0 cell blank"></div>
+				<div class="col2 row0 cell blank"></div>
+				<div class="col3 row0 cell blank"></div>
+				
+				<div class="col0 row1 cell blank"></div>
+				<div class="col1 row1 cell blank"></div>
+				<div class="col2 row1 cell blank"></div>
+				<div class="col3 row1 cell blank"></div>
+				
+				<div class="col0 row2 cell blank"></div>
+				<div class="col1 row2 cell blank"></div>
+				<div class="col2 row2 cell blank"></div>
+				<div class="col3 row2 cell blank"></div>
+				
+				<div class="col0 row3 cell blank"></div>
+				<div class="col1 row3 cell blank"></div>
+				<div class="col2 row3 cell blank"></div>
+				<div class="col3 row3 cell blank"></div>
+			</div>
+		</div>
+		<div id="gameboy">
+			<img src="on.png" width="30" height="30" id="onLight" alt="" />
+			<div id="b_button" class="button">
+			</div>
+			<div id="a_button" class="button">
+			</div>
+			<div id="select" class="button">
+			</div>
+			<div id="start" class="button">
+			</div>
+			<div id="d_pad">
+				<div id="top" class="arrow">
+				</div>
+				<div id="right" class="arrow">
+				</div>
+				<div id="bottom" class="arrow">
+				</div>
+				<div id="left" class="arrow">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="shadow">
+	</div>
+	<div id="config">
+		<div id="gear" class="rotate">
+		</div>
+		<a class="reset" href="javascript:void(0);">RESET</a>
+		<h1>Configuration</h1>
+		<div class="left">
+			<label>Up</label><input class="txtChar" id="upConfig" type="text" name="upConfig" value="Up"/>
+			<label>Right</label><input class="txtChar" id="rightConfig" type="text" name="rightConfig" value="Right"/>
+			<label>Down</label><input class="txtChar" id="downConfig" type="text" name="downConfig" value="Down"/>
+			<label>Left</label><input class="txtChar" id="leftConfig" type="text" name="leftConfig" value="Left"/>
+		</div>
+		<div class="right">
+			<label>B</label><input class="txtChar" id="bConfig" type="text" name="bConfig" value="A"/>
+			<label>A</label><input class="txtChar" id="aConfig" type="text" name="aConfig" value="S"/>
+			<label>Select</label><input class="txtChar" id="selectConfig" type="text" name="selectConfig" value="K"/>
+			<label>Start</label><input class="txtChar" id="startConfig" type="text" name="startConfig" value="L"/>
+		</div>
+	</div>
+</body>
+</html>
