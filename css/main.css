@@ -1,6 +1,6 @@
 * {
-margin:0;
-padding:0;
+	margin:0;
+	padding:0;
 }
 body,html {
 	height:100%;
@@ -23,7 +23,6 @@ body {
 	position: absolute;
 	top: 80px;
 	left: 87px;
-	/*background:url(../img/screen.png) top left repeat-x;*/
 	background:#546717;
 	z-index:1;
 	text-align:center;
@@ -41,12 +40,12 @@ body {
 	color:#081506;
 }
 #pause {
-width:90px;
-height:132px;
-padding-top:75px;
-position:absolute;
-top:-35px;
-left:16px;
+	width:90px;
+	height:132px;
+	padding-top:75px;
+	position:absolute;
+	top:-35px;
+	left:16px;
 	background:#546717;
 	text-align:center;
 	font-size:8px;
@@ -54,9 +53,9 @@ left:16px;
 }
 #pause span {
 	display:inline-block;
-line-height:10px;
-padding-top:3px;
-border-bottom:dotted 1px #081506;
+	line-height:10px;
+	padding-top:3px;
+	border-bottom:dotted 1px #081506;
 }
 #shadow {
 	width:353px;
@@ -174,7 +173,6 @@ border-bottom:dotted 1px #081506;
 	text-align:center;
 	top:-20px;
 }
-
 #config {
 	position:fixed;
 	z-index:3;
@@ -182,35 +180,29 @@ border-bottom:dotted 1px #081506;
 	right:-360px;
 	width:400px;
 	height:150px;
-		font-family: 'Press Start 2P';	
+	font-family: 'Press Start 2P';
 }
-
 #gear {
 	position:absolute;
 	top:4px;
 	left:4px;
-background:  url(../img/config.png) top left no-repeat;	
-width:32px;
-height:32px;
-
+	background:  url(../img/config.png) top left no-repeat;	
+	width:32px;
+	height:32px;
 }
-.rotate{
+.rotate {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
- 
     -webkit-transition-property: -webkit-transform;
     -moz-transition-property: -moz-transform;
     -o-transition-property: -o-transform;
-    transition-property: transform;
- 
+    transition-property: transform; 
     overflow:hidden;
- cursor:pointer;
-    }   
- 
-.rotate:hover
-{
+ 	cursor:pointer;
+}
+.rotate:hover {
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
@@ -227,11 +219,10 @@ height:32px;
 	color:#fff;
 }
 #config h1 {
-
-		margin-left:45px;
-		line-height:40px;
-		font-size:16px;
-		width:260px;
+	margin-left:45px;
+	line-height:40px;
+	font-size:16px;
+	width:260px;
 }
 #config .right {
 	width:200px;
@@ -254,39 +245,35 @@ height:32px;
 	width:125px;
 	height:18px;
 	border:0;
-		margin:2px 0;
-		font-family: 'Press Start 2P';	
-		outline:none;
-		border: 1px solid #fff;
+	margin:2px 0;
+	font-family: 'Press Start 2P';	
+	outline:none;
+	border: 1px solid #fff;
 	font-size:12px;
 }
-
 #config input[type="text"]:focus {
-border:1px solid #000;	
+	border:1px solid #000;	
 }
-
 #grid {
-width:90px;
-height:207px;
-position:absolute;
-top:-35px;
-left:16px;
+	width:90px;
+	height:207px;
+	position:absolute;
+	top:-35px;
+	left:16px;
 }
-
 .cell {
-width:9px;
-height:9px;
-float:left;
-background:url(../img/tetris_blocks.png) 0 -9px no-repeat;
+	width:9px;
+	height:9px;
+	float:left;
+	background:url(../img/tetris_blocks.png) 0 -9px no-repeat;
 }
-
 #nextPiece {
-width:36px;
-height:36px;
-position:absolute;
-z-index:2;
-top: 127px;
-left: 137px
+	width:36px;
+	height:36px;
+	position:absolute;
+	z-index:2;
+	top: 127px;
+	left: 137px
 }
 .shape1 {
 	background-position:-36px 0px;
@@ -318,7 +305,6 @@ left: 137px
 .shape5 {
 	background-position:-18px 0px;
 }
-
 .shape6 {
 	background-position:-63px 0px;
 }
@@ -328,38 +314,32 @@ left: 137px
 .blink {
 	background-position:-81px 0px;
 }
-
 #scoreTitle {
-font-size: 7px;
-position: absolute;
-top: 19px;
-left: 137px;	
+	font-size: 7px;
+	position: absolute;
+	top: 19px;
+	left: 137px;	
 }
-
 #score {
-position:absolute;
-top:35px;
-right:17px;
-font-size:7px;
+	position:absolute;
+	top:35px;
+	right:17px;
+	font-size:7px;
 }
-
 #level, #lines {
 	position:absolute;
 	top:60px;
 	right:21px;
 	font-size:6px;
 }
-
 #lines {
-top:84px;	
+	top:84px;	
 }
-
 .number{
-display: block;
-text-align: right;
-line-height:10px;
+	display: block;
+	text-align: right;
+	line-height:10px;
 }
-
 .info {
-display:none;	
+	display:none;	
 }
