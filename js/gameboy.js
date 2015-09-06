@@ -433,7 +433,7 @@ $(document).ready(function(){
 						   tetris = new tetrisGame();
 				//		 intro();
 interval =	setTimeout(dropPiece, 750);
-	$('#screen').css('background','url(tetris.png) top left no-repeat');
+	$('#screen').css('background','url(img/tetris.png) top left no-repeat');
 		$('.info').show(0);
 	$('#top').bind('mousedown',function(){
 		 $('#d_pad').css('background-position','-90px 0');
